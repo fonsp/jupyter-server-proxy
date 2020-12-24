@@ -8,7 +8,7 @@ print("YAS I AM BEING INTSALELD")
 
 setuptools.setup(
     name="jupyter-server-proxy",
-    version='1.5.2',
+    version='1.5.1002',
     url="https://github.com/fonsp/jupyter-server-proxy",
     author="Ryan Lovett & Yuvi Panda",
     author_email="rylo@berkeley.edu",
