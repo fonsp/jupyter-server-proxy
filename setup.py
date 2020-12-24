@@ -4,8 +4,10 @@ from glob import glob
 with open("README.md") as f:
     readme = f.read()
 
+print("YAS I AM BEING INTSALELD")
+
 setuptools.setup(
-    name="jupyter-server-proxy-cors",
+    name="jupyter-server-proxy",
     version='1.5.2',
     url="https://github.com/fonsp/jupyter-server-proxy",
     author="Ryan Lovett & Yuvi Panda",
