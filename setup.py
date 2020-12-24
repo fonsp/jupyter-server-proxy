@@ -5,9 +5,9 @@ with open("README.md") as f:
     readme = f.read()
 
 setuptools.setup(
-    name="jupyter-server-proxy",
+    name="jupyter-server-proxy-cors",
     version='1.5.2',
-    url="https://github.com/jupyterhub/jupyter-server-proxy",
+    url="https://github.com/fonsp/jupyter-server-proxy",
     author="Ryan Lovett & Yuvi Panda",
     author_email="rylo@berkeley.edu",
     license="BSD 3-Clause",
