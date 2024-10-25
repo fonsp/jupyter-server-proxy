@@ -1,13 +1,13 @@
 {
   "name": "@jupyterhub/jupyter-server-proxy",
-  "version": "4.4.1-0.dev",
+  "version": "4.4.999999999",
   "description": "A JupyterLab extension accompanying the PyPI package jupyter-server-proxy adding launcher items for configured server processes.",
   "keywords": [
     "jupyter",
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/jupyterhub/jupyter-server-proxy",
+  "homepage": "https://github.com/fonsp/jupyter-server-proxy",
   "bugs": {
     "url": "https://github.com/jupyterhub/jupyter-server-proxy/issues"
   },
@@ -24,7 +24,7 @@
   "types": "lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jupyterhub/jupyter-server-proxy.git"
+    "url": "https://github.com/fonsp/jupyter-server-proxy.git"
   },
   "scripts": {
     "build": "jlpm run build:lib && jlpm run build:labextension:dev",

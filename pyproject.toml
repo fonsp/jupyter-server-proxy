@@ -16,8 +16,8 @@ requires = [
 #
 [project]
 name = "jupyter_server_proxy"
-version = "4.4.1-0.dev"
-description = "A Jupyter server extension to run additional processes and proxy to them that comes bundled JupyterLab extension to launch pre-defined processes."
+version = "4.4.999999999"
+description = "CUSTOM PLUTO FORK OF: A Jupyter server extension to run additional processes and proxy to them that comes bundled JupyterLab extension to launch pre-defined processes."
 keywords = ["jupyter", "jupyterlab", "jupyterlab-extension"]
 authors = [
   { name = "Ryan Lovett", email = "rylo@berkeley.edu" },
@@ -76,7 +76,7 @@ lab = [
 
 [project.urls]
 Documentation = "https://jupyter-server-proxy.readthedocs.io"
-Source = "https://github.com/jupyterhub/jupyter-server-proxy"
+Source = "https://github.com/fonsp/jupyter-server-proxy"
 Tracker = "https://github.com/jupyterhub/jupyter-server-proxy/issues"
 
 

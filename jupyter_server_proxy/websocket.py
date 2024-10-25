@@ -96,6 +96,10 @@ class WebSocketHandlerMixin(websocket.WebSocketHandler):
             setattr(self, method, wrapper(method))
         nextparent.__init__(self, *args, **kwargs)
 
+    # allow cross-origin websocket connections -- only makes sense in setups like binder
+    def check_origin(self, origin):
+        return True
+
     async def get(self, *args, **kwargs):
         if self.request.headers.get("Upgrade", "").lower() != "websocket":
             return await self.http_get(*args, **kwargs)
